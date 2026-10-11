@@ -65,10 +65,11 @@ Full values are in the schematic and in the generated BOM.
 ├── STM32F4_REV2.kicad_pro      # KiCad project
 ├── STM32F4_REV2.kicad_sch      # Schematic
 ├── STM32F4_REV2.kicad_pcb      # PCB layout
+STM32F4_REV2
 ├── libraries/                  # Custom symbols, footprints and 3D models
 ├── fabrication/                # Gerber, drill, BOM and position files
 ├── docs/                       # Schematic PDF, datasheets
-├── images/                     # Screenshots used in this README
+├── images/  
 └── README.md
 ```
 
