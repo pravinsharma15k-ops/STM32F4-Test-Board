@@ -2,7 +2,7 @@
 
 A compact STM32F405-based development board designed in **KiCad 10**. It has a 12 V screw-terminal power input, an on-board buck converter, USB micro-B, and standard debug and communication headers (SWD, I2C, UART).
 
-![3D view of the board](images/3d-top.png)
+![3D view of the board](STM32F4_REV2/images/3Dview.png)
 
 ## Features
 
@@ -20,7 +20,7 @@ A compact STM32F405-based development board designed in **KiCad 10**. It has a 1
 
 | 3D view (angled) | PCB layout |
 |---|---|
-| ![3D angled](images/3d-angled.png) | ![PCB layout](images/pcb-layout.png) |
+| ![3D angled](STM32F4_REV2/images/3d-angled.png) | ![PCB layout](STM32F4_REV2/images/pcb-layout.png) |
 
 ## Schematic
 
@@ -30,7 +30,9 @@ The schematic has three sections:
 2. **Power circuitry**: MP2359 buck converter, inductor, diodes, ferrite bead for the analog supply
 3. **STM32 microcontroller**: STM32F405RGT6, crystal, decoupling, BOOT0 and reset circuit
 
-The PDF is in [`docs/STM32F4_REV2.pdf`](docs/STM32F4_REV2.pdf).
+The PDF is in [`docs/STM32F4_REV2.pdf`](STM32F4_REV2/docs/STM32F4_REV2.pdf).
+
+![Schematic](STM32F4_REV2/images/Schematic.png)
 
 ## Main Components
 
@@ -96,20 +98,12 @@ Before ordering, run **ERC** in the schematic editor and **DRC** in the PCB edit
 - [ ] Board fabricated
 - [ ] Board tested
 
-## Known Issues / To Do
-
-- Silkscreen reads "STM32F4 TEXT BOARD", which should say "TEST BOARD".
-- Verify all footprints against the exact parts being purchased, especially connectors.
-
 ## Credits
 
 - Designed in [KiCad](https://www.kicad.org/) 10.
 - Reference design and tutorial: Phil's Lab (YouTube), "KiCad STM32 + USB + Buck Converter PCB Design" (#11).
 - MP2359 symbol/footprint and Molex connector 3D model from SnapMagic.
 
-## License
-
-Add a license of your choice (for example MIT for hardware files or CERN-OHL), and check the license of any reference design or library you reused.
 
 ## Author
 
