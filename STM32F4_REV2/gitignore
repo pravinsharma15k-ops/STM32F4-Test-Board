@@ -1,0 +1,28 @@
+# KiCad backup and temp files
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Local user settings
+*.kicad_prl
+
+# Generated files (keep Gerbers in fabrication/ if you want them)
+*.net
+*.xml
+*.csv
+!fabrication/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
