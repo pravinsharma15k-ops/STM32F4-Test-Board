@@ -46,7 +46,7 @@ The PDF is in [`docs/STM32F4_REV2.pdf`](STM32F4_REV2/docs/STM32F4_REV2.pdf).
 | D3 / D4 | Red LED / Blue LED | Power indicator / Status LED |
 | Y1 | 16 MHz crystal | HSE clock |
 | F1 | 250 mA fuse | Input protection |
-| FB1 | 600 ohm @ 100 MHz ferrite bead | Analog supply filtering |
+| FB1 | 600 ohm @ 600 MHz ferrite bead | Analog supply filtering |
 | L1, L2 | Inductors | Buck converter and filtering |
 | SW1 | SPDT slide switch | BOOT0 select (BOOT / RUN) |
 | J1 | Screw terminal 1x02 | 12 V power input |
